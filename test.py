@@ -25,6 +25,7 @@ def media_type_from_source(source_type):
 def test_from_source_type(source_type):
     database = False
     if source_type == "mysql" or source_type == "postgresql":
+        database_up(source_type)
         database = True
 
     q1 = """SELECT DISTINCT ?test_uri ?test_id WHERE { 
