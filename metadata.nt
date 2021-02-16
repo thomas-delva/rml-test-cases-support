@@ -10,7 +10,6 @@
 <http://rml.io/test-case/RMLTC0000-CSV> <http://schema.org/description> "Tests if an empty table produces an empty RDF graph".
 <http://rml.io/test-case/RMLTC0000-CSV> <http://purl.org/dc/terms/description> "Tests if an empty table produces an empty RDF graph".
 <http://rml.io/test-case/RMLTC0000-CSV> <http://www.w3.org/2006/03/test-description#purpose> "Tests if an empty table produces an empty RDF graph".
-<http://rml.io/test-case/RMLTC0000-CSV> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0000-CSV> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0000-CSV/rules>.
 <http://rml.io/test-case/RMLTC0000-CSV> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0000-CSV/rules>.
 <http://rml.io/test-case/RMLTC0000-CSV> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0000-CSV/rules>.
@@ -31,7 +30,6 @@
 <http://rml.io/test-case/RMLTC0000-JSON> <http://schema.org/description> "Tests if an empty table produces an empty RDF graph".
 <http://rml.io/test-case/RMLTC0000-JSON> <http://purl.org/dc/terms/description> "Tests if an empty table produces an empty RDF graph".
 <http://rml.io/test-case/RMLTC0000-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Tests if an empty table produces an empty RDF graph".
-<http://rml.io/test-case/RMLTC0000-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0000-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0000-JSON/rules>.
 <http://rml.io/test-case/RMLTC0000-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0000-JSON/rules>.
 <http://rml.io/test-case/RMLTC0000-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0000-JSON/rules>.
@@ -52,7 +50,6 @@
 <http://rml.io/test-case/RMLTC0000-XML> <http://schema.org/description> "Tests if an empty table produces an empty RDF graph".
 <http://rml.io/test-case/RMLTC0000-XML> <http://purl.org/dc/terms/description> "Tests if an empty table produces an empty RDF graph".
 <http://rml.io/test-case/RMLTC0000-XML> <http://www.w3.org/2006/03/test-description#purpose> "Tests if an empty table produces an empty RDF graph".
-<http://rml.io/test-case/RMLTC0000-XML> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0000-XML> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0000-XML/rules>.
 <http://rml.io/test-case/RMLTC0000-XML> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0000-XML/rules>.
 <http://rml.io/test-case/RMLTC0000-XML> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0000-XML/rules>.
@@ -136,7 +133,6 @@
 <http://rml.io/test-case/RMLTC0000-SPARQL> <http://schema.org/description> "Test if an empty dataset produces an empty RDF graph".
 <http://rml.io/test-case/RMLTC0000-SPARQL> <http://purl.org/dc/terms/description> "Test if an empty dataset produces an empty RDF graph".
 <http://rml.io/test-case/RMLTC0000-SPARQL> <http://www.w3.org/2006/03/test-description#purpose> "Test if an empty dataset produces an empty RDF graph".
-<http://rml.io/test-case/RMLTC0000-SPARQL> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0000-SPARQL> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0000-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0000-SPARQL> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0000-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0000-SPARQL> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0000-SPARQL/rules>.
@@ -157,7 +153,6 @@
 <http://rml.io/test-case/RMLTC0001a-CSV> <http://schema.org/description> "Tests: (1) one column mapping; (2) subject URI generation by using rr:tmplate; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0001a-CSV> <http://purl.org/dc/terms/description> "Tests: (1) one column mapping; (2) subject URI generation by using rr:tmplate; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0001a-CSV> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) one column mapping; (2) subject URI generation by using rr:tmplate; (3) one column to one property".
-<http://rml.io/test-case/RMLTC0001a-CSV> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0001a-CSV> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0001a-CSV/rules>.
 <http://rml.io/test-case/RMLTC0001a-CSV> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0001a-CSV/rules>.
 <http://rml.io/test-case/RMLTC0001a-CSV> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0001a-CSV/rules>.
@@ -178,7 +173,6 @@
 <http://rml.io/test-case/RMLTC0001a-JSON> <http://schema.org/description> "Tests: (1) one column mapping; (2) subject URI generation by using rr:tmplate; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0001a-JSON> <http://purl.org/dc/terms/description> "Tests: (1) one column mapping; (2) subject URI generation by using rr:tmplate; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0001a-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) one column mapping; (2) subject URI generation by using rr:tmplate; (3) one column to one property".
-<http://rml.io/test-case/RMLTC0001a-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0001a-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0001a-JSON/rules>.
 <http://rml.io/test-case/RMLTC0001a-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0001a-JSON/rules>.
 <http://rml.io/test-case/RMLTC0001a-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0001a-JSON/rules>.
@@ -199,7 +193,6 @@
 <http://rml.io/test-case/RMLTC0001a-XML> <http://schema.org/description> "Tests: (1) one column mapping; (2) subject URI generation by using rr:tmplate; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0001a-XML> <http://purl.org/dc/terms/description> "Tests: (1) one column mapping; (2) subject URI generation by using rr:tmplate; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0001a-XML> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) one column mapping; (2) subject URI generation by using rr:tmplate; (3) one column to one property".
-<http://rml.io/test-case/RMLTC0001a-XML> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0001a-XML> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0001a-XML/rules>.
 <http://rml.io/test-case/RMLTC0001a-XML> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0001a-XML/rules>.
 <http://rml.io/test-case/RMLTC0001a-XML> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0001a-XML/rules>.
@@ -283,7 +276,6 @@
 <http://rml.io/test-case/RMLTC0001a-SPARQL> <http://schema.org/description> "Tests: (1) one tripple mapping; (2) generation of a BlankNode subject by using rr:termType; (3) one tripple to one property".
 <http://rml.io/test-case/RMLTC0001a-SPARQL> <http://purl.org/dc/terms/description> "Tests: (1) one tripple mapping; (2) generation of a BlankNode subject by using rr:termType; (3) one tripple to one property".
 <http://rml.io/test-case/RMLTC0001a-SPARQL> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) one tripple mapping; (2) generation of a BlankNode subject by using rr:termType; (3) one tripple to one property".
-<http://rml.io/test-case/RMLTC0001a-SPARQL> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0001a-SPARQL> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0001a-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0001a-SPARQL> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0001a-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0001a-SPARQL> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0001a-SPARQL/rules>.
@@ -304,7 +296,6 @@
 <http://rml.io/test-case/RMLTC0001b-CSV> <http://schema.org/description> "Tests: (1) one column mapping; (2) generation of a BlankNode subject by using rr:termType; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0001b-CSV> <http://purl.org/dc/terms/description> "Tests: (1) one column mapping; (2) generation of a BlankNode subject by using rr:termType; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0001b-CSV> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) one column mapping; (2) generation of a BlankNode subject by using rr:termType; (3) one column to one property".
-<http://rml.io/test-case/RMLTC0001b-CSV> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0001b-CSV> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0001b-CSV/rules>.
 <http://rml.io/test-case/RMLTC0001b-CSV> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0001b-CSV/rules>.
 <http://rml.io/test-case/RMLTC0001b-CSV> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0001b-CSV/rules>.
@@ -325,7 +316,6 @@
 <http://rml.io/test-case/RMLTC0001b-JSON> <http://schema.org/description> "Tests: (1) one column mapping; (2) generation of a BlankNode subject by using rr:termType; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0001b-JSON> <http://purl.org/dc/terms/description> "Tests: (1) one column mapping; (2) generation of a BlankNode subject by using rr:termType; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0001b-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) one column mapping; (2) generation of a BlankNode subject by using rr:termType; (3) one column to one property".
-<http://rml.io/test-case/RMLTC0001b-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0001b-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0001b-JSON/rules>.
 <http://rml.io/test-case/RMLTC0001b-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0001b-JSON/rules>.
 <http://rml.io/test-case/RMLTC0001b-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0001b-JSON/rules>.
@@ -346,7 +336,6 @@
 <http://rml.io/test-case/RMLTC0001b-XML> <http://schema.org/description> "Tests: (1) one column mapping; (2) generation of a BlankNode subject by using rr:termType; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0001b-XML> <http://purl.org/dc/terms/description> "Tests: (1) one column mapping; (2) generation of a BlankNode subject by using rr:termType; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0001b-XML> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) one column mapping; (2) generation of a BlankNode subject by using rr:termType; (3) one column to one property".
-<http://rml.io/test-case/RMLTC0001b-XML> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0001b-XML> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0001b-XML/rules>.
 <http://rml.io/test-case/RMLTC0001b-XML> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0001b-XML/rules>.
 <http://rml.io/test-case/RMLTC0001b-XML> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0001b-XML/rules>.
@@ -430,7 +419,6 @@
 <http://rml.io/test-case/RMLTC0001b-SPARQL> <http://schema.org/description> "Tests: (1) one tripple mapping; (2) generation of a BlankNode subject by using rr:termType; (3) one tripple to one property".
 <http://rml.io/test-case/RMLTC0001b-SPARQL> <http://purl.org/dc/terms/description> "Tests: (1) one tripple mapping; (2) generation of a BlankNode subject by using rr:termType; (3) one tripple to one property".
 <http://rml.io/test-case/RMLTC0001b-SPARQL> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) one tripple mapping; (2) generation of a BlankNode subject by using rr:termType; (3) one tripple to one property".
-<http://rml.io/test-case/RMLTC0001b-SPARQL> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0001b-SPARQL> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0001b-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0001b-SPARQL> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0001b-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0001b-SPARQL> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0001b-SPARQL/rules>.
@@ -451,7 +439,6 @@
 <http://rml.io/test-case/RMLTC0002a-CSV> <http://schema.org/description> "Tests: (1) two column mapping, no primary key; (2) subject URI generated by the concatenation of two column values; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0002a-CSV> <http://purl.org/dc/terms/description> "Tests: (1) two column mapping, no primary key; (2) subject URI generated by the concatenation of two column values; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0002a-CSV> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) two column mapping, no primary key; (2) subject URI generated by the concatenation of two column values; (3) one column to one property".
-<http://rml.io/test-case/RMLTC0002a-CSV> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0002a-CSV> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0002a-CSV/rules>.
 <http://rml.io/test-case/RMLTC0002a-CSV> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0002a-CSV/rules>.
 <http://rml.io/test-case/RMLTC0002a-CSV> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0002a-CSV/rules>.
@@ -472,7 +459,6 @@
 <http://rml.io/test-case/RMLTC0002a-JSON> <http://schema.org/description> "Tests: (1) two column mapping, no primary key; (2) subject URI generated by the concatenation of two column values; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0002a-JSON> <http://purl.org/dc/terms/description> "Tests: (1) two column mapping, no primary key; (2) subject URI generated by the concatenation of two column values; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0002a-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) two column mapping, no primary key; (2) subject URI generated by the concatenation of two column values; (3) one column to one property".
-<http://rml.io/test-case/RMLTC0002a-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0002a-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0002a-JSON/rules>.
 <http://rml.io/test-case/RMLTC0002a-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0002a-JSON/rules>.
 <http://rml.io/test-case/RMLTC0002a-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0002a-JSON/rules>.
@@ -493,7 +479,6 @@
 <http://rml.io/test-case/RMLTC0002a-XML> <http://schema.org/description> "Tests: (1) two column mapping, no primary key; (2) subject URI generated by the concatenation of two column values; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0002a-XML> <http://purl.org/dc/terms/description> "Tests: (1) two column mapping, no primary key; (2) subject URI generated by the concatenation of two column values; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0002a-XML> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) two column mapping, no primary key; (2) subject URI generated by the concatenation of two column values; (3) one column to one property".
-<http://rml.io/test-case/RMLTC0002a-XML> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0002a-XML> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0002a-XML/rules>.
 <http://rml.io/test-case/RMLTC0002a-XML> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0002a-XML/rules>.
 <http://rml.io/test-case/RMLTC0002a-XML> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0002a-XML/rules>.
@@ -577,7 +562,6 @@
 <http://rml.io/test-case/RMLTC0002a-SPARQL> <http://schema.org/description> "Tests: (1) two tripple mapping, no primary key; (2) subject URI generated by the concatenation of two tripple object values; (3) one tripple object to one property".
 <http://rml.io/test-case/RMLTC0002a-SPARQL> <http://purl.org/dc/terms/description> "Tests: (1) two tripple mapping, no primary key; (2) subject URI generated by the concatenation of two tripple object values; (3) one tripple object to one property".
 <http://rml.io/test-case/RMLTC0002a-SPARQL> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) two tripple mapping, no primary key; (2) subject URI generated by the concatenation of two tripple object values; (3) one tripple object to one property".
-<http://rml.io/test-case/RMLTC0002a-SPARQL> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0002a-SPARQL> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0002a-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0002a-SPARQL> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0002a-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0002a-SPARQL> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0002a-SPARQL/rules>.
@@ -598,7 +582,6 @@
 <http://rml.io/test-case/RMLTC0002b-CSV> <http://schema.org/description> "Tests: (1) two column mapping, no primary key; (2) generation of a BlankNode subject by using rr:template; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0002b-CSV> <http://purl.org/dc/terms/description> "Tests: (1) two column mapping, no primary key; (2) generation of a BlankNode subject by using rr:template; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0002b-CSV> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) two column mapping, no primary key; (2) generation of a BlankNode subject by using rr:template; (3) one column to one property".
-<http://rml.io/test-case/RMLTC0002b-CSV> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0002b-CSV> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0002b-CSV/rules>.
 <http://rml.io/test-case/RMLTC0002b-CSV> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0002b-CSV/rules>.
 <http://rml.io/test-case/RMLTC0002b-CSV> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0002b-CSV/rules>.
@@ -619,7 +602,6 @@
 <http://rml.io/test-case/RMLTC0002b-JSON> <http://schema.org/description> "Tests: (1) two column mapping, no primary key; (2) generation of a BlankNode subject by using rr:template; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0002b-JSON> <http://purl.org/dc/terms/description> "Tests: (1) two column mapping, no primary key; (2) generation of a BlankNode subject by using rr:template; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0002b-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) two column mapping, no primary key; (2) generation of a BlankNode subject by using rr:template; (3) one column to one property".
-<http://rml.io/test-case/RMLTC0002b-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0002b-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0002b-JSON/rules>.
 <http://rml.io/test-case/RMLTC0002b-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0002b-JSON/rules>.
 <http://rml.io/test-case/RMLTC0002b-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0002b-JSON/rules>.
@@ -640,7 +622,6 @@
 <http://rml.io/test-case/RMLTC0002b-XML> <http://schema.org/description> "Tests: (1) two column mapping, no primary key; (2) generation of a BlankNode subject by using rr:template; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0002b-XML> <http://purl.org/dc/terms/description> "Tests: (1) two column mapping, no primary key; (2) generation of a BlankNode subject by using rr:template; (3) one column to one property".
 <http://rml.io/test-case/RMLTC0002b-XML> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) two column mapping, no primary key; (2) generation of a BlankNode subject by using rr:template; (3) one column to one property".
-<http://rml.io/test-case/RMLTC0002b-XML> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0002b-XML> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0002b-XML/rules>.
 <http://rml.io/test-case/RMLTC0002b-XML> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0002b-XML/rules>.
 <http://rml.io/test-case/RMLTC0002b-XML> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0002b-XML/rules>.
@@ -724,7 +705,6 @@
 <http://rml.io/test-case/RMLTC0002b-SPARQL> <http://schema.org/description> "Tests: (1) two tripple mapping, no primary key; (2) generation of a BlankNode subject by using rr:template; (3) one triple to one property".
 <http://rml.io/test-case/RMLTC0002b-SPARQL> <http://purl.org/dc/terms/description> "Tests: (1) two tripple mapping, no primary key; (2) generation of a BlankNode subject by using rr:template; (3) one triple to one property".
 <http://rml.io/test-case/RMLTC0002b-SPARQL> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) two tripple mapping, no primary key; (2) generation of a BlankNode subject by using rr:template; (3) one triple to one property".
-<http://rml.io/test-case/RMLTC0002b-SPARQL> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0002b-SPARQL> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0002b-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0002b-SPARQL> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0002b-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0002b-SPARQL> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0002b-SPARQL/rules>.
@@ -745,7 +725,6 @@
 <http://rml.io/test-case/RMLTC0002c-CSV> <http://schema.org/description> "Tests the presence of an undefined SQL identifier / logical reference".
 <http://rml.io/test-case/RMLTC0002c-CSV> <http://purl.org/dc/terms/description> "Tests the presence of an undefined SQL identifier / logical reference".
 <http://rml.io/test-case/RMLTC0002c-CSV> <http://www.w3.org/2006/03/test-description#purpose> "Tests the presence of an undefined SQL identifier / logical reference".
-<http://rml.io/test-case/RMLTC0002c-CSV> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0002c-CSV> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0002c-CSV/rules>.
 <http://rml.io/test-case/RMLTC0002c-CSV> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0002c-CSV/rules>.
 <http://rml.io/test-case/RMLTC0002c-CSV> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0002c-CSV/rules>.
@@ -766,7 +745,6 @@
 <http://rml.io/test-case/RMLTC0002c-JSON> <http://schema.org/description> "Tests the presence of an undefined SQL identifier / logical reference".
 <http://rml.io/test-case/RMLTC0002c-JSON> <http://purl.org/dc/terms/description> "Tests the presence of an undefined SQL identifier / logical reference".
 <http://rml.io/test-case/RMLTC0002c-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Tests the presence of an undefined SQL identifier / logical reference".
-<http://rml.io/test-case/RMLTC0002c-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0002c-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0002c-JSON/rules>.
 <http://rml.io/test-case/RMLTC0002c-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0002c-JSON/rules>.
 <http://rml.io/test-case/RMLTC0002c-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0002c-JSON/rules>.
@@ -787,7 +765,6 @@
 <http://rml.io/test-case/RMLTC0002c-XML> <http://schema.org/description> "Tests the presence of an undefined SQL identifier / logical reference".
 <http://rml.io/test-case/RMLTC0002c-XML> <http://purl.org/dc/terms/description> "Tests the presence of an undefined SQL identifier / logical reference".
 <http://rml.io/test-case/RMLTC0002c-XML> <http://www.w3.org/2006/03/test-description#purpose> "Tests the presence of an undefined SQL identifier / logical reference".
-<http://rml.io/test-case/RMLTC0002c-XML> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0002c-XML> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0002c-XML/rules>.
 <http://rml.io/test-case/RMLTC0002c-XML> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0002c-XML/rules>.
 <http://rml.io/test-case/RMLTC0002c-XML> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0002c-XML/rules>.
@@ -934,7 +911,6 @@
 <http://rml.io/test-case/RMLTC0002e-CSV> <http://schema.org/description> "Tests the presence of an undefined rr:tableName".
 <http://rml.io/test-case/RMLTC0002e-CSV> <http://purl.org/dc/terms/description> "Tests the presence of an undefined rr:tableName".
 <http://rml.io/test-case/RMLTC0002e-CSV> <http://www.w3.org/2006/03/test-description#purpose> "Tests the presence of an undefined rr:tableName".
-<http://rml.io/test-case/RMLTC0002e-CSV> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0002e-CSV> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0002e-CSV/rules>.
 <http://rml.io/test-case/RMLTC0002e-CSV> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0002e-CSV/rules>.
 <http://rml.io/test-case/RMLTC0002e-CSV> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0002e-CSV/rules>.
@@ -955,7 +931,6 @@
 <http://rml.io/test-case/RMLTC0002e-JSON> <http://schema.org/description> "Tests the presence of an undefined rr:tableName".
 <http://rml.io/test-case/RMLTC0002e-JSON> <http://purl.org/dc/terms/description> "Tests the presence of an undefined rr:tableName".
 <http://rml.io/test-case/RMLTC0002e-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Tests the presence of an undefined rr:tableName".
-<http://rml.io/test-case/RMLTC0002e-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0002e-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0002e-JSON/rules>.
 <http://rml.io/test-case/RMLTC0002e-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0002e-JSON/rules>.
 <http://rml.io/test-case/RMLTC0002e-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0002e-JSON/rules>.
@@ -976,7 +951,6 @@
 <http://rml.io/test-case/RMLTC0002e-XML> <http://schema.org/description> "Tests the presence of an undefined rr:tableName".
 <http://rml.io/test-case/RMLTC0002e-XML> <http://purl.org/dc/terms/description> "Tests the presence of an undefined rr:tableName".
 <http://rml.io/test-case/RMLTC0002e-XML> <http://www.w3.org/2006/03/test-description#purpose> "Tests the presence of an undefined rr:tableName".
-<http://rml.io/test-case/RMLTC0002e-XML> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0002e-XML> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0002e-XML/rules>.
 <http://rml.io/test-case/RMLTC0002e-XML> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0002e-XML/rules>.
 <http://rml.io/test-case/RMLTC0002e-XML> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0002e-XML/rules>.
@@ -1186,7 +1160,6 @@
 <http://rml.io/test-case/RMLTC0002g-SPARQL> <http://schema.org/description> "Tests the presence of an invalid SPARQL query".
 <http://rml.io/test-case/RMLTC0002g-SPARQL> <http://purl.org/dc/terms/description> "Tests the presence of an invalid SPARQL query".
 <http://rml.io/test-case/RMLTC0002g-SPARQL> <http://www.w3.org/2006/03/test-description#purpose> "Tests the presence of an invalid SPARQL query".
-<http://rml.io/test-case/RMLTC0002g-SPARQL> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0002g-SPARQL> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0002g-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0002g-SPARQL> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0002g-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0002g-SPARQL> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0002g-SPARQL/rules>.
@@ -1268,7 +1241,6 @@
 <http://rml.io/test-case/RMLTC0002h-SPARQL> <http://schema.org/description> "Tests the presence of duplicate variable names in the SELECT list of the SPARQL query".
 <http://rml.io/test-case/RMLTC0002h-SPARQL> <http://purl.org/dc/terms/description> "Tests the presence of duplicate variable names in the SELECT list of the SPARQL query".
 <http://rml.io/test-case/RMLTC0002h-SPARQL> <http://www.w3.org/2006/03/test-description#purpose> "Tests the presence of duplicate variable names in the SELECT list of the SPARQL query".
-<http://rml.io/test-case/RMLTC0002h-SPARQL> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0002h-SPARQL> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0002h-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0002h-SPARQL> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0002h-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0002h-SPARQL> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0002h-SPARQL/rules>.
@@ -1541,7 +1513,6 @@
 <http://rml.io/test-case/RMLTC0003c-CSV> <http://schema.org/description> "Tests: (1) three column mapping; and (2) the use of rr:template to produce literal".
 <http://rml.io/test-case/RMLTC0003c-CSV> <http://purl.org/dc/terms/description> "Tests: (1) three column mapping; and (2) the use of rr:template to produce literal".
 <http://rml.io/test-case/RMLTC0003c-CSV> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) three column mapping; and (2) the use of rr:template to produce literal".
-<http://rml.io/test-case/RMLTC0003c-CSV> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0003c-CSV> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0003c-CSV/rules>.
 <http://rml.io/test-case/RMLTC0003c-CSV> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0003c-CSV/rules>.
 <http://rml.io/test-case/RMLTC0003c-CSV> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0003c-CSV/rules>.
@@ -1562,7 +1533,6 @@
 <http://rml.io/test-case/RMLTC0003c-JSON> <http://schema.org/description> "Tests: (1) three column mapping; and (2) the use of rr:template to produce literal".
 <http://rml.io/test-case/RMLTC0003c-JSON> <http://purl.org/dc/terms/description> "Tests: (1) three column mapping; and (2) the use of rr:template to produce literal".
 <http://rml.io/test-case/RMLTC0003c-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) three column mapping; and (2) the use of rr:template to produce literal".
-<http://rml.io/test-case/RMLTC0003c-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0003c-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0003c-JSON/rules>.
 <http://rml.io/test-case/RMLTC0003c-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0003c-JSON/rules>.
 <http://rml.io/test-case/RMLTC0003c-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0003c-JSON/rules>.
@@ -1583,7 +1553,6 @@
 <http://rml.io/test-case/RMLTC0003c-XML> <http://schema.org/description> "Tests: (1) three column mapping; and (2) the use of rr:template to produce literal".
 <http://rml.io/test-case/RMLTC0003c-XML> <http://purl.org/dc/terms/description> "Tests: (1) three column mapping; and (2) the use of rr:template to produce literal".
 <http://rml.io/test-case/RMLTC0003c-XML> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) three column mapping; and (2) the use of rr:template to produce literal".
-<http://rml.io/test-case/RMLTC0003c-XML> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0003c-XML> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0003c-XML/rules>.
 <http://rml.io/test-case/RMLTC0003c-XML> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0003c-XML/rules>.
 <http://rml.io/test-case/RMLTC0003c-XML> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0003c-XML/rules>.
@@ -1667,7 +1636,6 @@
 <http://rml.io/test-case/RMLTC0003c-SPARQL> <http://schema.org/description> "Tests: (1) three column mapping; and (2) the use of rr:template to produce literal".
 <http://rml.io/test-case/RMLTC0003c-SPARQL> <http://purl.org/dc/terms/description> "Tests: (1) three column mapping; and (2) the use of rr:template to produce literal".
 <http://rml.io/test-case/RMLTC0003c-SPARQL> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) three column mapping; and (2) the use of rr:template to produce literal".
-<http://rml.io/test-case/RMLTC0003c-SPARQL> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0003c-SPARQL> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0003c-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0003c-SPARQL> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0003c-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0003c-SPARQL> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0003c-SPARQL/rules>.
@@ -1688,7 +1656,6 @@
 <http://rml.io/test-case/RMLTC0004a-CSV> <http://schema.org/description> "Tests: (1) two column mapping, (2) subject URI generated by a column value; (3) from one row table to two different triples (4) typing by using rr:class".
 <http://rml.io/test-case/RMLTC0004a-CSV> <http://purl.org/dc/terms/description> "Tests: (1) two column mapping, (2) subject URI generated by a column value; (3) from one row table to two different triples (4) typing by using rr:class".
 <http://rml.io/test-case/RMLTC0004a-CSV> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) two column mapping, (2) subject URI generated by a column value; (3) from one row table to two different triples (4) typing by using rr:class".
-<http://rml.io/test-case/RMLTC0004a-CSV> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0004a-CSV> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0004a-CSV/rules>.
 <http://rml.io/test-case/RMLTC0004a-CSV> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0004a-CSV/rules>.
 <http://rml.io/test-case/RMLTC0004a-CSV> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0004a-CSV/rules>.
@@ -1709,7 +1676,6 @@
 <http://rml.io/test-case/RMLTC0004a-JSON> <http://schema.org/description> "Tests: (1) two column mapping, (2) subject URI generated by a column value; (3) from one row table to two different triples (4) typing by using rr:class".
 <http://rml.io/test-case/RMLTC0004a-JSON> <http://purl.org/dc/terms/description> "Tests: (1) two column mapping, (2) subject URI generated by a column value; (3) from one row table to two different triples (4) typing by using rr:class".
 <http://rml.io/test-case/RMLTC0004a-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) two column mapping, (2) subject URI generated by a column value; (3) from one row table to two different triples (4) typing by using rr:class".
-<http://rml.io/test-case/RMLTC0004a-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0004a-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0004a-JSON/rules>.
 <http://rml.io/test-case/RMLTC0004a-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0004a-JSON/rules>.
 <http://rml.io/test-case/RMLTC0004a-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0004a-JSON/rules>.
@@ -1730,7 +1696,6 @@
 <http://rml.io/test-case/RMLTC0004a-XML> <http://schema.org/description> "Tests: (1) two column mapping, (2) subject URI generated by a column value; (3) from one row table to two different triples (4) typing by using rr:class".
 <http://rml.io/test-case/RMLTC0004a-XML> <http://purl.org/dc/terms/description> "Tests: (1) two column mapping, (2) subject URI generated by a column value; (3) from one row table to two different triples (4) typing by using rr:class".
 <http://rml.io/test-case/RMLTC0004a-XML> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) two column mapping, (2) subject URI generated by a column value; (3) from one row table to two different triples (4) typing by using rr:class".
-<http://rml.io/test-case/RMLTC0004a-XML> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0004a-XML> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0004a-XML/rules>.
 <http://rml.io/test-case/RMLTC0004a-XML> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0004a-XML/rules>.
 <http://rml.io/test-case/RMLTC0004a-XML> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0004a-XML/rules>.
@@ -1814,7 +1779,6 @@
 <http://rml.io/test-case/RMLTC0004a-SPARQL> <http://schema.org/description> "Tests: (1) two BlankNodes mapping, (2) subject URI generated by a tripple object value; (3) from one BlankNode to two different triples (4) typing by using rr:class".
 <http://rml.io/test-case/RMLTC0004a-SPARQL> <http://purl.org/dc/terms/description> "Tests: (1) two BlankNodes mapping, (2) subject URI generated by a tripple object value; (3) from one BlankNode to two different triples (4) typing by using rr:class".
 <http://rml.io/test-case/RMLTC0004a-SPARQL> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) two BlankNodes mapping, (2) subject URI generated by a tripple object value; (3) from one BlankNode to two different triples (4) typing by using rr:class".
-<http://rml.io/test-case/RMLTC0004a-SPARQL> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0004a-SPARQL> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0004a-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0004a-SPARQL> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0004a-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0004a-SPARQL> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0004a-SPARQL/rules>.
@@ -1835,7 +1799,6 @@
 <http://rml.io/test-case/RMLTC0004b-CSV> <http://schema.org/description> "Tests: (1) one column mapping (2) the presence of rr:termType rr:Literal on rr:subjectMap, which is invalid".
 <http://rml.io/test-case/RMLTC0004b-CSV> <http://purl.org/dc/terms/description> "Tests: (1) one column mapping (2) the presence of rr:termType rr:Literal on rr:subjectMap, which is invalid".
 <http://rml.io/test-case/RMLTC0004b-CSV> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) one column mapping (2) the presence of rr:termType rr:Literal on rr:subjectMap, which is invalid".
-<http://rml.io/test-case/RMLTC0004b-CSV> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0004b-CSV> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0004b-CSV/rules>.
 <http://rml.io/test-case/RMLTC0004b-CSV> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0004b-CSV/rules>.
 <http://rml.io/test-case/RMLTC0004b-CSV> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0004b-CSV/rules>.
@@ -1856,7 +1819,6 @@
 <http://rml.io/test-case/RMLTC0004b-JSON> <http://schema.org/description> "Tests: (1) one column mapping (2) the presence of rr:termType rr:Literal on rr:subjectMap, which is invalid".
 <http://rml.io/test-case/RMLTC0004b-JSON> <http://purl.org/dc/terms/description> "Tests: (1) one column mapping (2) the presence of rr:termType rr:Literal on rr:subjectMap, which is invalid".
 <http://rml.io/test-case/RMLTC0004b-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) one column mapping (2) the presence of rr:termType rr:Literal on rr:subjectMap, which is invalid".
-<http://rml.io/test-case/RMLTC0004b-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0004b-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0004b-JSON/rules>.
 <http://rml.io/test-case/RMLTC0004b-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0004b-JSON/rules>.
 <http://rml.io/test-case/RMLTC0004b-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0004b-JSON/rules>.
@@ -1877,7 +1839,6 @@
 <http://rml.io/test-case/RMLTC0004b-XML> <http://schema.org/description> "Tests: (1) one column mapping (2) the presence of rr:termType rr:Literal on rr:subjectMap, which is invalid".
 <http://rml.io/test-case/RMLTC0004b-XML> <http://purl.org/dc/terms/description> "Tests: (1) one column mapping (2) the presence of rr:termType rr:Literal on rr:subjectMap, which is invalid".
 <http://rml.io/test-case/RMLTC0004b-XML> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) one column mapping (2) the presence of rr:termType rr:Literal on rr:subjectMap, which is invalid".
-<http://rml.io/test-case/RMLTC0004b-XML> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0004b-XML> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0004b-XML/rules>.
 <http://rml.io/test-case/RMLTC0004b-XML> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0004b-XML/rules>.
 <http://rml.io/test-case/RMLTC0004b-XML> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0004b-XML/rules>.
@@ -1961,7 +1922,6 @@
 <http://rml.io/test-case/RMLTC0004b-SPARQL> <http://schema.org/description> "Tests: (1) one column mapping (2) the presence of rr:termType rr:Literal on rr:subjectMap, which is invalid".
 <http://rml.io/test-case/RMLTC0004b-SPARQL> <http://purl.org/dc/terms/description> "Tests: (1) one column mapping (2) the presence of rr:termType rr:Literal on rr:subjectMap, which is invalid".
 <http://rml.io/test-case/RMLTC0004b-SPARQL> <http://www.w3.org/2006/03/test-description#purpose> "Tests: (1) one column mapping (2) the presence of rr:termType rr:Literal on rr:subjectMap, which is invalid".
-<http://rml.io/test-case/RMLTC0004b-SPARQL> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0004b-SPARQL> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0004b-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0004b-SPARQL> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0004b-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0004b-SPARQL> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0004b-SPARQL/rules>.
@@ -1982,7 +1942,6 @@
 <http://rml.io/test-case/RMLTC0005a-CSV> <http://schema.org/description> "Tests the typing of resources".
 <http://rml.io/test-case/RMLTC0005a-CSV> <http://purl.org/dc/terms/description> "Tests the typing of resources".
 <http://rml.io/test-case/RMLTC0005a-CSV> <http://www.w3.org/2006/03/test-description#purpose> "Tests the typing of resources".
-<http://rml.io/test-case/RMLTC0005a-CSV> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0005a-CSV> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0005a-CSV/rules>.
 <http://rml.io/test-case/RMLTC0005a-CSV> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0005a-CSV/rules>.
 <http://rml.io/test-case/RMLTC0005a-CSV> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0005a-CSV/rules>.
@@ -2003,7 +1962,6 @@
 <http://rml.io/test-case/RMLTC0005a-JSON> <http://schema.org/description> "Tests the typing of resources".
 <http://rml.io/test-case/RMLTC0005a-JSON> <http://purl.org/dc/terms/description> "Tests the typing of resources".
 <http://rml.io/test-case/RMLTC0005a-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Tests the typing of resources".
-<http://rml.io/test-case/RMLTC0005a-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0005a-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0005a-JSON/rules>.
 <http://rml.io/test-case/RMLTC0005a-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0005a-JSON/rules>.
 <http://rml.io/test-case/RMLTC0005a-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0005a-JSON/rules>.
@@ -2024,7 +1982,6 @@
 <http://rml.io/test-case/RMLTC0005a-XML> <http://schema.org/description> "Tests the typing of resources".
 <http://rml.io/test-case/RMLTC0005a-XML> <http://purl.org/dc/terms/description> "Tests the typing of resources".
 <http://rml.io/test-case/RMLTC0005a-XML> <http://www.w3.org/2006/03/test-description#purpose> "Tests the typing of resources".
-<http://rml.io/test-case/RMLTC0005a-XML> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0005a-XML> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0005a-XML/rules>.
 <http://rml.io/test-case/RMLTC0005a-XML> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0005a-XML/rules>.
 <http://rml.io/test-case/RMLTC0005a-XML> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0005a-XML/rules>.
@@ -3788,7 +3745,6 @@
 <http://rml.io/test-case/RMLTC0008c-CSV> <http://schema.org/description> "Tests the generation of triples by using multiple predicateMaps within a rr:predicateObjectMap".
 <http://rml.io/test-case/RMLTC0008c-CSV> <http://purl.org/dc/terms/description> "Tests the generation of triples by using multiple predicateMaps within a rr:predicateObjectMap".
 <http://rml.io/test-case/RMLTC0008c-CSV> <http://www.w3.org/2006/03/test-description#purpose> "Tests the generation of triples by using multiple predicateMaps within a rr:predicateObjectMap".
-<http://rml.io/test-case/RMLTC0008c-CSV> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0008c-CSV> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0008c-CSV/rules>.
 <http://rml.io/test-case/RMLTC0008c-CSV> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0008c-CSV/rules>.
 <http://rml.io/test-case/RMLTC0008c-CSV> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0008c-CSV/rules>.
@@ -3809,7 +3765,6 @@
 <http://rml.io/test-case/RMLTC0008c-JSON> <http://schema.org/description> "Tests the generation of triples by using multiple predicateMaps within a rr:predicateObjectMap".
 <http://rml.io/test-case/RMLTC0008c-JSON> <http://purl.org/dc/terms/description> "Tests the generation of triples by using multiple predicateMaps within a rr:predicateObjectMap".
 <http://rml.io/test-case/RMLTC0008c-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Tests the generation of triples by using multiple predicateMaps within a rr:predicateObjectMap".
-<http://rml.io/test-case/RMLTC0008c-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0008c-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0008c-JSON/rules>.
 <http://rml.io/test-case/RMLTC0008c-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0008c-JSON/rules>.
 <http://rml.io/test-case/RMLTC0008c-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0008c-JSON/rules>.
@@ -3830,7 +3785,6 @@
 <http://rml.io/test-case/RMLTC0008c-XML> <http://schema.org/description> "Tests the generation of triples by using multiple predicateMaps within a rr:predicateObjectMap".
 <http://rml.io/test-case/RMLTC0008c-XML> <http://purl.org/dc/terms/description> "Tests the generation of triples by using multiple predicateMaps within a rr:predicateObjectMap".
 <http://rml.io/test-case/RMLTC0008c-XML> <http://www.w3.org/2006/03/test-description#purpose> "Tests the generation of triples by using multiple predicateMaps within a rr:predicateObjectMap".
-<http://rml.io/test-case/RMLTC0008c-XML> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0008c-XML> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0008c-XML/rules>.
 <http://rml.io/test-case/RMLTC0008c-XML> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0008c-XML/rules>.
 <http://rml.io/test-case/RMLTC0008c-XML> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0008c-XML/rules>.
@@ -3914,7 +3868,6 @@
 <http://rml.io/test-case/RMLTC0008c-SPARQL> <http://schema.org/description> "Tests the generation of triples by using multiple predicateMaps within a rr:predicateObjectMap".
 <http://rml.io/test-case/RMLTC0008c-SPARQL> <http://purl.org/dc/terms/description> "Tests the generation of triples by using multiple predicateMaps within a rr:predicateObjectMap".
 <http://rml.io/test-case/RMLTC0008c-SPARQL> <http://www.w3.org/2006/03/test-description#purpose> "Tests the generation of triples by using multiple predicateMaps within a rr:predicateObjectMap".
-<http://rml.io/test-case/RMLTC0008c-SPARQL> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0008c-SPARQL> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0008c-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0008c-SPARQL> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0008c-SPARQL/rules>.
 <http://rml.io/test-case/RMLTC0008c-SPARQL> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0008c-SPARQL/rules>.
@@ -4787,7 +4740,6 @@
 <http://rml.io/test-case/RMLTC0011b-CSV> <http://schema.org/description> "Tests, M to M relations, by using an additional Triples Map".
 <http://rml.io/test-case/RMLTC0011b-CSV> <http://purl.org/dc/terms/description> "Tests, M to M relations, by using an additional Triples Map".
 <http://rml.io/test-case/RMLTC0011b-CSV> <http://www.w3.org/2006/03/test-description#purpose> "Tests, M to M relations, by using an additional Triples Map".
-<http://rml.io/test-case/RMLTC0011b-CSV> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0011b-CSV> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0011b-CSV/rules>.
 <http://rml.io/test-case/RMLTC0011b-CSV> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0011b-CSV/rules>.
 <http://rml.io/test-case/RMLTC0011b-CSV> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0011b-CSV/rules>.
@@ -4812,7 +4764,6 @@
 <http://rml.io/test-case/RMLTC0011b-JSON> <http://schema.org/description> "Tests, M to M relations, by using an additional Triples Map".
 <http://rml.io/test-case/RMLTC0011b-JSON> <http://purl.org/dc/terms/description> "Tests, M to M relations, by using an additional Triples Map".
 <http://rml.io/test-case/RMLTC0011b-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Tests, M to M relations, by using an additional Triples Map".
-<http://rml.io/test-case/RMLTC0011b-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0011b-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0011b-JSON/rules>.
 <http://rml.io/test-case/RMLTC0011b-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0011b-JSON/rules>.
 <http://rml.io/test-case/RMLTC0011b-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0011b-JSON/rules>.
@@ -4837,7 +4788,6 @@
 <http://rml.io/test-case/RMLTC0011b-XML> <http://schema.org/description> "Tests, M to M relations, by using an additional Triples Map".
 <http://rml.io/test-case/RMLTC0011b-XML> <http://purl.org/dc/terms/description> "Tests, M to M relations, by using an additional Triples Map".
 <http://rml.io/test-case/RMLTC0011b-XML> <http://www.w3.org/2006/03/test-description#purpose> "Tests, M to M relations, by using an additional Triples Map".
-<http://rml.io/test-case/RMLTC0011b-XML> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0011b-XML> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0011b-XML/rules>.
 <http://rml.io/test-case/RMLTC0011b-XML> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0011b-XML/rules>.
 <http://rml.io/test-case/RMLTC0011b-XML> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0011b-XML/rules>.
@@ -5540,7 +5490,6 @@
 <http://rml.io/test-case/RMLTC0013a-JSON> <http://schema.org/description> "Tests if null values in JSON files are handled correctly.".
 <http://rml.io/test-case/RMLTC0013a-JSON> <http://purl.org/dc/terms/description> "Tests if null values in JSON files are handled correctly.".
 <http://rml.io/test-case/RMLTC0013a-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Tests if null values in JSON files are handled correctly.".
-<http://rml.io/test-case/RMLTC0013a-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0013a-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0013a-JSON/rules>.
 <http://rml.io/test-case/RMLTC0013a-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0013a-JSON/rules>.
 <http://rml.io/test-case/RMLTC0013a-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0013a-JSON/rules>.
@@ -6329,7 +6278,6 @@
 <http://rml.io/test-case/RMLTC0019a-CSV> <http://schema.org/description> "Test the generation of triples by using IRI value in columns".
 <http://rml.io/test-case/RMLTC0019a-CSV> <http://purl.org/dc/terms/description> "Test the generation of triples by using IRI value in columns".
 <http://rml.io/test-case/RMLTC0019a-CSV> <http://www.w3.org/2006/03/test-description#purpose> "Test the generation of triples by using IRI value in columns".
-<http://rml.io/test-case/RMLTC0019a-CSV> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0019a-CSV> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0019a-CSV/rules>.
 <http://rml.io/test-case/RMLTC0019a-CSV> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0019a-CSV/rules>.
 <http://rml.io/test-case/RMLTC0019a-CSV> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0019a-CSV/rules>.
@@ -6350,7 +6298,6 @@
 <http://rml.io/test-case/RMLTC0019a-JSON> <http://schema.org/description> "Test the generation of triples by using IRI value in attributes".
 <http://rml.io/test-case/RMLTC0019a-JSON> <http://purl.org/dc/terms/description> "Test the generation of triples by using IRI value in attributes".
 <http://rml.io/test-case/RMLTC0019a-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Test the generation of triples by using IRI value in attributes".
-<http://rml.io/test-case/RMLTC0019a-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0019a-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0019a-JSON/rules>.
 <http://rml.io/test-case/RMLTC0019a-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0019a-JSON/rules>.
 <http://rml.io/test-case/RMLTC0019a-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0019a-JSON/rules>.
@@ -6371,7 +6318,6 @@
 <http://rml.io/test-case/RMLTC0019a-XML> <http://schema.org/description> "Test the generation of triples by using IRI value in elements".
 <http://rml.io/test-case/RMLTC0019a-XML> <http://purl.org/dc/terms/description> "Test the generation of triples by using IRI value in elements".
 <http://rml.io/test-case/RMLTC0019a-XML> <http://www.w3.org/2006/03/test-description#purpose> "Test the generation of triples by using IRI value in elements".
-<http://rml.io/test-case/RMLTC0019a-XML> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0019a-XML> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0019a-XML/rules>.
 <http://rml.io/test-case/RMLTC0019a-XML> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0019a-XML/rules>.
 <http://rml.io/test-case/RMLTC0019a-XML> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0019a-XML/rules>.
@@ -6455,7 +6401,6 @@
 <http://rml.io/test-case/RMLTC0019b-CSV> <http://schema.org/description> "Test the generation of triples by using IRI value in columns, conforming RML mapping with data error (and limited results)".
 <http://rml.io/test-case/RMLTC0019b-CSV> <http://purl.org/dc/terms/description> "Test the generation of triples by using IRI value in columns, conforming RML mapping with data error (and limited results)".
 <http://rml.io/test-case/RMLTC0019b-CSV> <http://www.w3.org/2006/03/test-description#purpose> "Test the generation of triples by using IRI value in columns, conforming RML mapping with data error (and limited results)".
-<http://rml.io/test-case/RMLTC0019b-CSV> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0019b-CSV> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0019b-CSV/rules>.
 <http://rml.io/test-case/RMLTC0019b-CSV> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0019b-CSV/rules>.
 <http://rml.io/test-case/RMLTC0019b-CSV> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0019b-CSV/rules>.
@@ -6476,7 +6421,6 @@
 <http://rml.io/test-case/RMLTC0019b-JSON> <http://schema.org/description> "Test the generation of triples by using IRI value in attributes, conforming RML mapping with data error (and limited results)".
 <http://rml.io/test-case/RMLTC0019b-JSON> <http://purl.org/dc/terms/description> "Test the generation of triples by using IRI value in attributes, conforming RML mapping with data error (and limited results)".
 <http://rml.io/test-case/RMLTC0019b-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Test the generation of triples by using IRI value in attributes, conforming RML mapping with data error (and limited results)".
-<http://rml.io/test-case/RMLTC0019b-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0019b-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0019b-JSON/rules>.
 <http://rml.io/test-case/RMLTC0019b-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0019b-JSON/rules>.
 <http://rml.io/test-case/RMLTC0019b-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0019b-JSON/rules>.
@@ -6497,7 +6441,6 @@
 <http://rml.io/test-case/RMLTC0019b-XML> <http://schema.org/description> "Test the generation of triples by using IRI value in elements, conforming RML mapping with data error (and limited results)".
 <http://rml.io/test-case/RMLTC0019b-XML> <http://purl.org/dc/terms/description> "Test the generation of triples by using IRI value in elements, conforming RML mapping with data error (and limited results)".
 <http://rml.io/test-case/RMLTC0019b-XML> <http://www.w3.org/2006/03/test-description#purpose> "Test the generation of triples by using IRI value in elements, conforming RML mapping with data error (and limited results)".
-<http://rml.io/test-case/RMLTC0019b-XML> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0019b-XML> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0019b-XML/rules>.
 <http://rml.io/test-case/RMLTC0019b-XML> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0019b-XML/rules>.
 <http://rml.io/test-case/RMLTC0019b-XML> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0019b-XML/rules>.
@@ -6707,7 +6650,6 @@
 <http://rml.io/test-case/RMLTC0020b-CSV> <http://schema.org/description> "Test the generation of triples by using IRI value in columns, conforming R2RML mapping with data error (and no result)".
 <http://rml.io/test-case/RMLTC0020b-CSV> <http://purl.org/dc/terms/description> "Test the generation of triples by using IRI value in columns, conforming R2RML mapping with data error (and no result)".
 <http://rml.io/test-case/RMLTC0020b-CSV> <http://www.w3.org/2006/03/test-description#purpose> "Test the generation of triples by using IRI value in columns, conforming R2RML mapping with data error (and no result)".
-<http://rml.io/test-case/RMLTC0020b-CSV> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0020b-CSV> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0020b-CSV/rules>.
 <http://rml.io/test-case/RMLTC0020b-CSV> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0020b-CSV/rules>.
 <http://rml.io/test-case/RMLTC0020b-CSV> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0020b-CSV/rules>.
@@ -6728,7 +6670,6 @@
 <http://rml.io/test-case/RMLTC0020b-JSON> <http://schema.org/description> "Test the generation of triples by using IRI value in columns, conforming R2RML mapping with data error (and no result)".
 <http://rml.io/test-case/RMLTC0020b-JSON> <http://purl.org/dc/terms/description> "Test the generation of triples by using IRI value in columns, conforming R2RML mapping with data error (and no result)".
 <http://rml.io/test-case/RMLTC0020b-JSON> <http://www.w3.org/2006/03/test-description#purpose> "Test the generation of triples by using IRI value in columns, conforming R2RML mapping with data error (and no result)".
-<http://rml.io/test-case/RMLTC0020b-JSON> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0020b-JSON> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0020b-JSON/rules>.
 <http://rml.io/test-case/RMLTC0020b-JSON> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0020b-JSON/rules>.
 <http://rml.io/test-case/RMLTC0020b-JSON> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0020b-JSON/rules>.
@@ -6749,7 +6690,6 @@
 <http://rml.io/test-case/RMLTC0020b-XML> <http://schema.org/description> "Test the generation of triples by using IRI value in columns, conforming R2RML mapping with data error (and no result)".
 <http://rml.io/test-case/RMLTC0020b-XML> <http://purl.org/dc/terms/description> "Test the generation of triples by using IRI value in columns, conforming R2RML mapping with data error (and no result)".
 <http://rml.io/test-case/RMLTC0020b-XML> <http://www.w3.org/2006/03/test-description#purpose> "Test the generation of triples by using IRI value in columns, conforming R2RML mapping with data error (and no result)".
-<http://rml.io/test-case/RMLTC0020b-XML> <http://www.w3.org/2006/03/test-description#specificationReference> <>.
 <http://rml.io/test-case/RMLTC0020b-XML> <http://purl.org/dc/terms/hasPart> <http://rml.io/test-case/RMLTC0020b-XML/rules>.
 <http://rml.io/test-case/RMLTC0020b-XML> <http://www.w3.org/2006/03/test-description#informationResourceInput> <http://rml.io/test-case/RMLTC0020b-XML/rules>.
 <http://rml.io/test-case/RMLTC0020b-XML> <http://rml.io/ns/test-case/rules> <http://rml.io/test-case/RMLTC0020b-XML/rules>.
