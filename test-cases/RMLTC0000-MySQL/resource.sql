@@ -1,5 +1,3 @@
-USE test;
-DROP TABLE IF EXISTS test.student;
-CREATE TABLE student (
-  Name VARCHAR(50)
-);
+USE rml;
+DROP TABLE IF EXISTS rml.student;
+CREATE TABLE student (Name VARCHAR(50));

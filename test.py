@@ -54,8 +54,7 @@ def test_from_source_type(source_type):
 
 def run_test(t_identifier, expected_output, source_type):
     expected_output_graph = Graph()
-    if t_identifier == Literal("RMLTC0007h-CSV"):
-        print("hello")
+
     if os.path.isfile(config["properties"]["output_results"]):
         os.system("rm " + config["properties"]["output_results"])
 
