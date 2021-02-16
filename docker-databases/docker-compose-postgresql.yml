@@ -1,13 +1,13 @@
 version: '3.1'
 services:
   postgresql:
-    container_name: r2rmltc-postgres
+    container_name: rmltc-postgres
     image: postgres:13
     restart: always
     environment:
-      POSTGRES_PASSWORD: r2rml
-      POSTGRES_USER: r2rml
-      POSTGRES_DB: r2rml
+      POSTGRES_PASSWORD: rml
+      POSTGRES_USER: rml
+      POSTGRES_DB: rml
     ports:
       - "5432:5432"
     

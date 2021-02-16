@@ -1,13 +1,13 @@
 version: '3.1'
 services:
   mysql:
-    container_name: r2rmltc-mysql
+    container_name: rmltc-mysql
     image: mysql:8.0
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: r2rml
-      MYSQL_USER: r2rml
-      MYSQL_PASSWORD: r2rml
-      MYSQL_DATABASE: r2rml
+      MYSQL_ROOT_PASSWORD: rml
+      MYSQL_USER: rml
+      MYSQL_PASSWORD: rml
+      MYSQL_DATABASE: rml
     ports:
       - "3306:3306"

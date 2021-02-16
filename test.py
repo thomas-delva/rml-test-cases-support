@@ -106,18 +106,18 @@ def run_test(t_identifier, expected_output, source_type):
 
 def database_load(database_type):
     if database_type == "mysql":
-        cnx = mysql.connector.connect(user='r2rml', password='r2rml', host='127.0.0.1', database='r2rml')
+        cnx = mysql.connector.connect(user='rml', password='rml', host='127.0.0.1', database='rml')
         cursor = cnx.cursor()
-        for statement in open("resources.sql"):
+        for statement in open("resource.sql"):
             cursor.execute(statement)
         cnx.commit()
         cursor.close()
         cnx.close()
 
     elif database_type == "postgresql":
-        cnx = psycopg2.connect("dbname='r2rml' user='r2rml' host='localhost' password='r2rml'")
+        cnx = psycopg2.connect("dbname='rml' user='rml' host='localhost' password='rml'")
         cursor = cnx.cursor()
-        for statement in open("resources.sql"):
+        for statement in open("resource.sql"):
             cursor.execute(statement)
         cnx.commit()
         cursor.close()
