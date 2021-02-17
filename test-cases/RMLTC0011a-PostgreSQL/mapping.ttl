@@ -57,7 +57,10 @@
 <TriplesMap2>
     a rr:TriplesMap;
 
-	rr:logicalTable [ rr:tableName  "Sport" ];
+	rr:logicalTable [
+         rml:source <#DB_source>;
+         rr:sqlVersion rr:SQL2008;
+         rr:tableName  "Sport" ];
 	
     rr:subjectMap [ rr:template "http://example.com/{id}/{description}"; ];
 

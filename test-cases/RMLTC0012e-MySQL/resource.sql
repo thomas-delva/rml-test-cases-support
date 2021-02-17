@@ -1,6 +1,6 @@
-USE test;
-DROP TABLE IF EXISTS test.IOUs;
-DROP TABLE IF EXISTS test.Lives;
+USE rml;
+DROP TABLE IF EXISTS rml.IOUs;
+DROP TABLE IF EXISTS rml.Lives;
 CREATE TABLE IOUs (fname VARCHAR(20), lname VARCHAR(20), amount INT);
 INSERT INTO IOUs (fname, lname, amount) VALUES ('Bob', 'Smith', 30);
 INSERT INTO IOUs (fname, lname, amount) VALUES ('Sue', 'Jones', 20);

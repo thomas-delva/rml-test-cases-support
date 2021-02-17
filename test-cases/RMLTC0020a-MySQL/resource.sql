@@ -1,5 +1,5 @@
-USE test;
-DROP TABLE IF EXISTS test.Student;
+USE rml;
+DROP TABLE IF EXISTS rml.Student;
 CREATE TABLE Student (Name VARCHAR(50));
 INSERT INTO Student (Name) VALUES ('http://example.com/company/Alice');
 INSERT INTO Student (Name) VALUES ('Bob');

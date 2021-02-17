@@ -1,5 +1,5 @@
-USE test;
-DROP TABLE IF EXISTS test.Employee;
+USE rml;
+DROP TABLE IF EXISTS rml.Employee;
 CREATE TABLE Employee (ID INTEGER,FirstName VARCHAR(50),LastName VARCHAR(50));
 INSERT INTO Employee (ID,FirstName,LastName) VALUES (10,'http://example.com/ns#Jhon','Smith');
 INSERT INTO Employee (ID,FirstName,LastName) VALUES (20,'Carlos','Mendoza');

@@ -1,8 +1,8 @@
-USE test;
+USE rml;
 SET FOREIGN_KEY_CHECKS = 0;
-DROP TABLE IF EXISTS test.Student_Sport;
-DROP TABLE IF EXISTS test.Sport;
-DROP TABLE IF EXISTS test.Student;
+DROP TABLE IF EXISTS rml.Student_Sport;
+DROP TABLE IF EXISTS rml.Sport;
+DROP TABLE IF EXISTS rml.Student;
 SET FOREIGN_KEY_CHECKS = 1;
 CREATE TABLE Student (ID integer PRIMARY KEY, FirstName varchar(50), LastName varchar(50));
 CREATE TABLE Sport (ID integer PRIMARY KEY, Description varchar(50));

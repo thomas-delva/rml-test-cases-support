@@ -1,5 +1,6 @@
 from configparser import ConfigParser, ExtendedInterpolation
 from rdflib import Graph, RDF, Namespace, compare, Literal, URIRef
+from rdflib.plugins.sparql import prepareQuery
 from rdflib_hdt import HDTStore, optimize_sparql
 import mysql.connector
 import psycopg2
@@ -44,8 +45,8 @@ def test_from_source_type(source_type):
         os.system("cp ./test-cases/" + test_id + "/* .")
         if database:
             database_load(source_type)
-        q2 = """ASK {<""" + test_uri + """> <http://www.w3.org/2006/03/test-description#expectedResults> 
-        <http://rml.io/ns/test-case/InvalidRulesError>}"""
+        q2 = prepareQuery("ASK {<" + test_uri + "> <http://www.w3.org/2006/03/test-description#expectedResults>"
+                                                " <http://rml.io/ns/test-case/InvalidRulesError> . }")
         expected_output = not bool(manifest_graph.query(q2))
         run_test(test_id, expected_output, source_type)
     if database:
@@ -61,7 +62,8 @@ def run_test(t_identifier, expected_output, source_type):
     if expected_output:
         expected_output_graph.parse("./output.nq", format="nquads")
 
-    os.system(config["properties"]["engine_command"] + " > test-cases/" + t_identifier + "/engine_output-" + source_type + ".log")
+    os.system(config["properties"][
+                  "engine_command"] + " > test-cases/" + t_identifier + "/engine_output-" + source_type + ".log")
 
     # if there is output file
     if os.path.isfile(config["properties"]["output_results"]):
@@ -108,7 +110,8 @@ def database_load(database_type):
         cnx = mysql.connector.connect(user='rml', password='rml', host='127.0.0.1', database='rml')
         cursor = cnx.cursor()
         for statement in open("resource.sql"):
-            cursor.execute(statement)
+            if statement != "":
+                cursor.execute(statement)
         cnx.commit()
         cursor.close()
         cnx.close()
@@ -117,7 +120,8 @@ def database_load(database_type):
         cnx = psycopg2.connect("dbname='rml' user='rml' host='localhost' password='rml'")
         cursor = cnx.cursor()
         for statement in open("resource.sql"):
-            cursor.execute(statement)
+            if statement != "":
+                cursor.execute(statement)
         cnx.commit()
         cursor.close()
         cnx.close()
@@ -136,11 +140,11 @@ def database_up(database_type):
 
 def database_down(database_type):
     if database_type == "mysql":
-        os.system("docker-compose -f databases/docker-compose-mysql.yml stop")
-        os.system("docker-compose -f databases/docker-compose-mysql.yml rm --force")
+        os.system("docker-compose -f docker-databases/docker-compose-mysql.yml stop")
+        os.system("docker-compose -f docker-databases/docker-compose-mysql.yml rm --force")
     elif database_type == "postgresql":
-        os.system("docker-compose -f databases/docker-compose-postgresql.yml stop")
-        os.system("docker-compose -f databases/docker-compose-postgresql.yml rm --force")
+        os.system("docker-compose -f docker-databases/docker-compose-postgresql.yml stop")
+        os.system("docker-compose -f docker-databases/docker-compose-postgresql.yml rm --force")
 
 
 if __name__ == "__main__":
