@@ -1,7 +1,4 @@
 USE test;
-DROP TABLE IF EXISTS test.Student;
-CREATE TABLE Student (
-ID INTEGER,
-Name VARCHAR(15)
-);
-INSERT INTO Student (ID, Name) VALUES(10,'Venus');
+DROP TABLE IF EXISTS test.student;
+CREATE TABLE student (ID INTEGER, Name VARCHAR(50));
+INSERT INTO student values ('10', 'Venus');
