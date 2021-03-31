@@ -163,6 +163,7 @@ def write_results():
         writer = csv.writer(file)
         writer.writerows(results)
 
+    os.system("java -jar rmlmapper.jar -m rules.ttl -o results.nt -d")
 
 if __name__ == "__main__":
     config_file = str(sys.argv[1])
