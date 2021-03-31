@@ -18,6 +18,8 @@ def media_type_from_source(source_type):
         return "\"application/xml\" ."
     elif source_type == "mysql" or source_type == "postgresql":
         return "\"application/sql\" .\n \tFILTER (regex(?test_id,\"" + source_type + "\",\"i\"))"
+    elif source_type == "sparql":
+        return "\"text/turtle\" ."
     else:
         print("Provide a correct source type")
         sys.exit()
@@ -158,12 +160,14 @@ def write_results():
         if s not in sources:
             q = get_query_for_source_type(s)
             for r in manifest_graph.query(q):
-                results.append([config["tester"]["tester_name"], config["engine"]["engine_name"], s, r.test_id, "inapplicable"])
+                results.append(
+                    [config["tester"]["tester_name"], config["engine"]["engine_name"], s, r.test_id, "inapplicable"])
     with open('results.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerows(results)
 
     os.system("java -jar rmlmapper.jar -m rules.ttl -o results.nt -d")
+
 
 if __name__ == "__main__":
     config_file = str(sys.argv[1])
