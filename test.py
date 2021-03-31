@@ -23,13 +23,8 @@ def media_type_from_source(source_type):
         sys.exit()
 
 
-def test_from_source_type(source_type):
-    database = False
-    if source_type == "mysql" or source_type == "postgresql":
-        database_up(source_type)
-        database = True
-
-    q1 = """SELECT DISTINCT ?test_uri ?test_id WHERE { 
+def get_query_for_source_type(source_type):
+    return """SELECT DISTINCT ?test_uri ?test_id WHERE { 
         ?test_uri rdf:type <http://www.w3.org/ns/earl#TestCase> . 
         ?test_uri <http://purl.org/dc/terms/identifier> ?test_id .
         ?test_uri <http://purl.org/dc/terms/hasPart> ?part .
@@ -39,7 +34,16 @@ def test_from_source_type(source_type):
         
     } ORDER BY ?test_uri"""
 
-    for r in manifest_graph.query(q1):
+
+def test_from_source_type(source_type):
+    database = False
+    if source_type == "mysql" or source_type == "postgresql":
+        database_up(source_type)
+        database = True
+
+    query = get_query_for_source_type(source_type)
+
+    for r in manifest_graph.query(query):
         test_id = r.test_id
         test_uri = r.test_uri
         os.system("cp ./test-cases/" + test_id + "/* .")
@@ -147,6 +151,19 @@ def database_down(database_type):
         os.system("docker-compose -f docker-databases/docker-compose-postgresql.yml rm --force")
 
 
+def write_results():
+    all_sources = ["csv", "json", "xml", "postgresql", "mysql", "sqlserver", "sparql"]
+
+    for s in all_sources:
+        if s not in sources:
+            q = get_query_for_source_type(s)
+            for r in manifest_graph.query(q):
+                results.append([config["tester"]["tester_name"], config["engine"]["engine_name"], s, r.test_id, "inapplicable"])
+    with open('results.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(results)
+
+
 if __name__ == "__main__":
     config_file = str(sys.argv[1])
     if not os.path.isfile(config_file):
@@ -168,6 +185,4 @@ if __name__ == "__main__":
     for source in sources:
         test_from_source_type(source)
 
-    with open('results.csv', 'w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerows(results)
+    write_results()
