@@ -16,7 +16,7 @@ def media_type_from_source(source_type):
         return "\"application/json\" ."
     elif source_type == "xml":
         return "\"application/xml\" ."
-    elif source_type == "mysql" or source_type == "postgresql":
+    elif source_type in ["mysql", "postgresql", "sqlserver"]:
         return "\"application/sql\" .\n \tFILTER (regex(?test_id,\"" + source_type + "\",\"i\"))"
     elif source_type == "sparql":
         return "\"text/turtle\" ."
